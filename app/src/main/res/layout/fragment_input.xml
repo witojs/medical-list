@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        android:contentDescription="@string/image"
         android:src="@drawable/baseline_arrow_back_24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -20,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Add New List"
+        android:text="@string/add_new_list"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@id/iv_back_arrow"
@@ -31,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Name"
+        android:text="@string/name"
         app:layout_constraintStart_toStartOf="@id/tv_title"
         app:layout_constraintTop_toBottomOf="@id/tv_title" />
 
@@ -51,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Address"
+        android:text="@string/address"
         app:layout_constraintStart_toStartOf="@id/input_hospital_name"
         app:layout_constraintTop_toBottomOf="@id/input_hospital_name" />
 
@@ -71,7 +72,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Phone Number"
+        android:text="@string/phone_number"
         app:layout_constraintStart_toStartOf="@id/input_hospital_address"
         app:layout_constraintTop_toBottomOf="@id/input_hospital_address" />
 
@@ -91,7 +92,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Save"
+        android:text="@string/save"
         app:cornerRadius="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/input_hospital_phone" />
@@ -100,7 +101,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btn_discard"
-        android:text="Discard"
+        android:text="@string/discard"
         app:layout_constraintTop_toTopOf="@id/btn_save"
         app:layout_constraintBottom_toBottomOf="@id/btn_save"
         app:layout_constraintEnd_toStartOf="@id/btn_save"
